@@ -12,15 +12,15 @@ function convertToBool(text, fault = 'true') {
 
 
 const defaultConfig = {
-  SESSION_ID: "", // Put your session id here
+  SESSION_ID: "3t5jQLBb#a9fd__Z9m12sQFGZgFsSE8rtwJMmrRD5HZakaL-L4p8", // Put your session id here
   ALIVE_IMG: "https://github.com/DANUWA-MD/DANUWA-BOT/blob/main/images/Danuwa%20-%20MD.png?raw=true",
-  ALIVE_MSG: "*Hello👋 DANUWA-MD Is Alive Now😍*", // Change alive msg from here
+  ALIVE_MSG: "*Hello👋 CHAMI-MD Is Alive Now😍*", // Change alive msg from here
   OPENAI_API_KEY: "",// Add OPENAI API key here
   GEMINI_API_KEY: "", // Add Gemini API key here
   REMOVE_BG_API_KEY:"", // Add removebg API key here
   WEATHER_API_KEY: "", // Add your weather API key here
-  BOT_OWNER: "94776121326", // Replace your bot owner number here with 94(country code)
-  ownerNumber: ["94776121326"], // Replace your bot owner number here (same as bot owner number)
+  BOT_OWNER: "94766315540", // Replace your bot owner number here with 94(country code)
+  ownerNumber: ["94766315540"], // Replace your bot owner number here (same as bot owner number)
   AUTO_READ_STATUS: "true", // Turn on or off auto read status from here
   MODE: "public", // 'private', 'public'
 };
@@ -28,7 +28,7 @@ const defaultConfig = {
 //*******************************************************************************************************************************************************
 
 module.exports = {
-  SESSION_ID: process.env.SESSION_ID || defaultConfig.SESSION_ID,
+  CSESSION_ID: process.env.SESSION_ID || defaultConfig.SESSION_ID,
   ALIVE_IMG: process.env.ALIVE_IMG || defaultConfig.ALIVE_IMG,
   ALIVE_MSG: process.env.ALIVE_MSG || defaultConfig.ALIVE_MSG,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || defaultConfig.OPENAI_API_KEY,
