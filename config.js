@@ -12,7 +12,7 @@ function convertToBool(text, fault = 'true') {
 
 
 const defaultConfig = {
-  SESSION_ID: "3t5jQLBb#a9fd__Z9m12sQFGZgFsSE8rtwJMmrRD5HZakaL-L4p8", // Put your session id here
+  SESSION_ID: "SIo2XKyb#GOGJaYEIWSXRufrVsM68VSsqmjCAKlYVn-8R3h6rqvs", // Put your session id here
   ALIVE_IMG: "https://github.com/DANUWA-MD/DANUWA-BOT/blob/main/images/Danuwa%20-%20MD.png?raw=true",
   ALIVE_MSG: "*Hello👋 CHAMI-MD Is Alive Now😍*", // Change alive msg from here
   OPENAI_API_KEY: "",// Add OPENAI API key here
